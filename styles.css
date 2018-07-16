@@ -1,0 +1,64 @@
+
+@font-face {
+  font-family: Avenir;
+  src: url('fonts/AvenirNextLTPro-Regular.otf');
+}
+ body {
+   font-family: Avenir;
+ }
+
+.row {
+  background-color: rgb(250,247,247);
+  height: 708px;
+  text-align: center;
+}
+
+.leftDiv {
+  margin-top: 225px;
+}
+
+.name {
+  color: purple;
+  font-size: 65px;
+}
+
+button {
+  background-color: rgb(53,53,38);
+  color: white;
+  border-radius: 4px;
+  width: 220px;
+  height: 40px;
+  font-size: 23px;
+}
+
+.bgPhoto {
+  background-image: url('resources/fadedTrack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ img {
+   z-index: 20;
+   margin-top: 20px;
+   height: 215px;
+   width: 230px;
+ }
+
+header {
+  background-color: rgb(156, 156, 140);
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.btmNav {
+  background-color: rgb(108, 108, 96);
+  height: 45px;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border-top: 1px solid black;
+  font-size: 20px;
+  padding-left: 40px;
+}
